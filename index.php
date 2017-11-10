@@ -42,30 +42,25 @@
                 <h1 id="typed" class="ui inverted header">
                     PHP Training
                 </h1>
-                <p>
+                <p class="blockquote">
                     Finding the right people to improve your team's skills can be difficult, but here at PHP Training, we're renowned for making even the most complicated topics understandable.
                 </p>
-                <a data-scroll href="#cta" class="ui large primary button">Get in touch</a>
+                <a data-scroll href="#cta" class="ui large button">Register now</a>
             </div>
         </section>
 
         <section id="topics" class="ui vertical stripe pt pb topics">
-            <div class="ui middle aligned stackable grid container">
-                <div class="row">
-                    <div class="eight wide column">
-                        <h2 class="ui header">The Right People</h2>
+            <div class="ui middle stackable grid container">
+                    <div class="ten wide column centered">
+                        <h2 class="ui header embelish">The Right People</h2>
                         <p>Our trainers are so helpful they're asked to speak at PHP conferences around the world!</p>
                         <div class="ui divider"></div>
-                        <h2 class="ui header">Modern Tech</h2>
+                        <h2 class="ui header embelish">Modern Tech</h2>
                         <p>We can provide modern PHP language training, plus all the relevant technologies like databases, Composer and Git. We have intermediate to advanced subjects like unit testing, continuous integration, and virtualising your development environment with Docker or Vagrant.</p>
                         <div class="ui divider"></div>
-                        <h2 class="ui header">Learn About Specifics</h2>
+                        <h2 class="ui header embelish">Learn About Specifics</h2>
                         <p>Need more specific topics around the most popular frameworks and libraries? If you're looking for training in Laravel, Symfony, Zend Framework or more general framework-less techniques (why be tied to one product?) -- we've got you covered.</p>
                     </div>
-                    <div class="six wide right floated column">
-                        <img src="assets/images/phptraining1.jpg" class="ui fluid centered image">
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -76,47 +71,50 @@
                 </h1>
                 <p>Our bespoke training can be tailored to suit your needs - from an afternoon refreshing existing knowledge to a week of intense boot camp style training; we can deliver what you need. Our experts are ready to provide exactly the education you need in a friendly and presentable way.</p>
                 <hr />
-                <p><strong>We can deliver what you want, where you need it - we can come to you, or you can come to us!</strong></p>
-                <p>Want to speak about tailoring a bespoke training package then email <a href="mailto:info@phptraining.co.uk">info@phptraining.co.uk</a> to arrange a call.</p>
-                <a data-scroll href="#cta" class="ui large primary button">Get in touch</a>
+                <p class="blockquote"><strong>We can deliver what you want, where you need it - we can come to you, or you can come to us!</strong></p>
+                <p>Want to speak about tailoring a bespoke training package then email <a class="on-red-link" href="mailto:info@phptraining.co.uk">info@phptraining.co.uk</a> to arrange a call.</p>
+                <a data-scroll href="#cta" class="ui large button">Register now</a>
             </div>
         </section>
 
-        <section id="courses" class="ui vertical stripe quote segment basic pt pb courses">
-            <div class="ui container center aligned">
-                <h2 class="ui center aligned icon header">Arranged Courses</h2>
-                <p class="ui center aligned partial">We periodically run our own arranged courses to allow individuals and smaller teams the chance to learn at a more reasonable cost:</p>
+        <section id="courses" class="ui vertical stripe quote segment basic courses">
+            <div class="ui container">
                 <div class="ui grid stackable pt pb">
-                    <div class="three column row">
-                        <div class="column">
-                            <h1>Building APIs</h1>
+                    <div class="ten wide column centered">
+                        <div class="column centered aligned pb">
+                            <h1 class="ui center aligned icon header embelish">Arranged Courses</h1>
+                            <p class="ui center aligned centered">We periodically run our own arranged courses to allow individuals and smaller teams the chance to learn at a more reasonable cost:</p>
+                        </div>
+                        <div class="column left aligned pb">
+                            <h2 class="ui header embelish left aligned">Building APIs</h2>
                             <p>This two-day course has hands-on exercises to introduce API building with PHP. We start by looking at HTTP and how APIs work and then turn our attention to building one out in PHP. You'll leave with a solid understanding of API theory, and you're own API built using what you've learned.</p>
                         </div>
-                        <div class="column">
-                            <h1>Introducing Zend Framework</h1>
+                        <div class="column left aligned pb">
+                            <h2 class="ui header embelish left aligned">Introducing Zend Framework</h2>
                             <p>This two or three-day course uses hands-on exercises to introduce and then looks in detail at Zend Framework 3. We start by looking at the foundations of the framework and then turn our attention to new modular-based MVC application system to provide attendees with a good understanding of Zend Framework. We also look at some of the other components within ZF that make for a more rounded application.</p>
                         </div>
-                        <div class="column">
-                            <h1>Using Laravel for Rapid Development</h1>
+                        <div class="column left aligned pb">
+                            <h2 class="ui header embelish left aligned">Using Laravel for Rapid Development</h2>
                             <p>A two-day course delivered using hands-on exercises introduces the central concepts of Laravel. Using Laravel's opinionated rapid development concepts attendees will walk away with the knowledge of how to build their own fully functional software-as-a-service offering using Laravel's artisan offerings.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="cta" class="ui grey inverted basic segment pt pb">
+        <section id="cta" class="ui red inverted basic segment pt pb">
             <div class="ui container grid center aligned">
                 <div class="sixteen wide column">
-                    <h2 class="ui header">Want to know when we're delivering our next arranged course? <br /> Join the mailing list to be the first to see what classes we're running and when.</h2>
+                    <h2 class="ui header inverted">Want to know when we're delivering our next arranged course? <br /> </h2>
+                    <p>Join the mailing list to be the first to see what classes we're running and when.</p>
 
                 </div>
 
-                    <form action="" method="POST">
-                        <div class="ui large action input">
-                            <input type="email" placeholder="example@domain.com">
-                            <button type="submit" class="ui button primary">Join</button>
-                        </div>
-                    </form>
+                <form action="" method="POST">
+                    <div class="ui large action input">
+                        <input type="email" placeholder="example@domain.com">
+                        <button type="submit" class="ui button cta-button">Join</button>
+                    </div>
+                </form>
 
             </div>
         </section>
