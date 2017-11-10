@@ -1,0 +1,54 @@
+#intro {
+    position: relative;
+    background: url('../images/intro-image.jpg') no-repeat !important;
+    background-attachment: fixed;
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+
+.bespoke {
+    position: relative;
+    background: url('../images/bespoke-training.jpg') no-repeat bottom !important;
+    background-attachment: fixed;
+}
+
+.pt {
+    padding-top: 50px !important;
+}
+
+.pb {
+    padding-bottom: 50px !important;
+}
+
+#cta {
+    margin: 0;
+}
+
+#nav-fixed {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.active {
+    background-color: #0e6eb8 !important;
+    color: white !important;
+}
+
+#nav-fixed .row {
+    /*padding: 0 !important;*/
+}
+
+.menu-collapser {
+    background-color: #f9f9f9;
+}
+
+.collapse-button,
+.collapse-button:active,
+.collapse-button:focus,
+.collapse-button:hover {
+    background-color: #0e6eb8;
+}
+
+.navbar-mobile {
+    width: 100% !important;
+}
