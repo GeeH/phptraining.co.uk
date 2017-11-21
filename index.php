@@ -14,7 +14,7 @@
                 <div class="ui container">
                     <div class="ui grid">
                         <div class="computer tablet only row">
-                            <div class="ui huge secondary basic menu">
+                            <div class="ui huge secondary basic menu primary-menu">
                                 <a data-scroll href="#intro" class="item">Intro</a>
                                 <a data-scroll href="#topics" class="item">Topics</a>
                                 <a data-scroll href="#bespoke" class="item">Bespoke Training</a>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="mobile only row">
                             <div class="ui large fluid vertical menu borderless">
-                                <div class="ui huge secondary basic vertical navbar-mobile menu">
+                                <div class="ui huge secondary basic vertical navbar-mobile menu primary-menu">
                                     <a data-scroll href="#intro" class="item">Intro</a>
                                     <a data-scroll href="#topics" class="item">Topics</a>
                                     <a data-scroll href="#bespoke" class="item">Bespoke Training</a>
@@ -121,7 +121,7 @@ class ListController extends AbstractActionController
                 </div>
             </div>
         </section>
-        <section id="cta" class="ui red inverted basic segment pt pb">
+        <section id="cta" class="ui inverted basic segment pt pb">
             <div class="ui container grid center aligned">
                 <div class="sixteen wide column">
                     <h2 class="ui header inverted">Want to know when we're delivering our next arranged course? <br /> </h2>

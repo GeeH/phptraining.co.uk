@@ -7,7 +7,7 @@
 
 .bespoke {
     position: relative;
-    background-color: #cf4646 !important;
+    background-color: #006cc2 !important;
 }
 
 .pt {
@@ -20,12 +20,17 @@
 
 #cta {
     margin: 0;
+    background-color: #006cc2 !important;
 }
 
 #nav-fixed {
     background-color: #f9f9f9;
     border-bottom: 1px solid #f2f2f2;
     box-shadow: 10px 10px 47px -23px rgba(0,0,0,0.75) !important;
+}
+
+.primary-menu a:hover {
+    background-color: #006cc2 !important;
 }
 
 .active {
@@ -42,7 +47,7 @@
 .collapse-button:active,
 .collapse-button:focus,
 .collapse-button:hover {
-    background-color: #cf4646;
+    background-color: #006cc2;
 }
 
 .navbar-mobile {
@@ -51,6 +56,11 @@
 
 .button {
     border: 1px solid white !important;
+}
+
+.button:hover {
+    background-color: white !important;
+    color: #006cc2 !important;
 }
 
 .embelish {
@@ -64,7 +74,7 @@
     bottom: -5px;
     width: 30px;
     height: 3px;
-    background: #cf4646;
+    background: #006cc2;
 }
 
 .on-red-link {
