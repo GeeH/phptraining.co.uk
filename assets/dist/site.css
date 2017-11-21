@@ -1,8 +1,8 @@
 #intro {
     background-color: #cf4646 !important;
     position: relative;
-    padding-top: 150px !important;
-    padding-bottom: 150px !important;
+    padding-top: 50 !important;
+    padding-bottom: 50px !important;
 }
 
 .bespoke {
@@ -74,4 +74,11 @@
 
 .blockquote {
     font-style: italic;
+}
+
+#intro-code {
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+    text-align: left !important;
+    box-shadow: 10px 10px 15px -9px rgba(0,0,0,0.75);
 }

@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" href="assets/dist/semantic.min.css" />
         <link rel="stylesheet" href="assets/dist/menu.css" />
+        <link rel="stylesheet" href="assets/dist/prism.css" />
         <link rel="stylesheet" href="assets/dist/site.css" />
     </head>
     <body>
@@ -42,6 +43,25 @@
                 <h1 id="typed" class="ui inverted header">
                     PHP Training
                 </h1>
+                <pre id="intro-code"><code class="language-php">
+namespace Blog\Controller;
+
+use Blog\Model\PostRepositoryInterface;
+use Zend\Mvc\Controller\AbstractActionController;
+
+class ListController extends AbstractActionController
+{
+    /**
+     * @var PostRepositoryInterface
+     */
+    private $postRepository;
+
+    public function __construct(PostRepositoryInterface $postRepository)
+    {
+        $this->postRepository = $postRepository;
+    }
+}
+                </code></pre>
                 <p class="blockquote">
                     Finding the right people to improve your team's skills can be difficult, but here at PHP Training, we're renowned for making even the most complicated topics understandable.
                 </p>
@@ -157,6 +177,7 @@
         <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="assets/dist/semantic.min.js"></script>
         <script type="text/javascript" src="assets/js/fixed.js"></script>
+        <script type="text/javascript" src="assets/js/prism.js"></script>
         <script type="text/javascript" src="assets/js/resp-nav.js"></script>
         <script type="text/javascript" src="assets/js/smooth.js"></script>
         <script type="text/javascript" src="/assets/js/main.js"></script>
