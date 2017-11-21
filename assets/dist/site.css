@@ -1,5 +1,5 @@
 #intro {
-    background-color: #cf4646 !important;
+    background-color: #006cc2 !important;
     position: relative;
     padding-top: 50 !important;
     padding-bottom: 50px !important;
@@ -81,4 +81,9 @@
     margin: 0 auto 30px auto;
     text-align: left !important;
     box-shadow: 10px 10px 15px -9px rgba(0,0,0,0.75);
+}
+
+.intro-quote {
+    max-width: 687px;
+    margin: 0 auto 15px auto;
 }

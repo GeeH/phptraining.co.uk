@@ -39,7 +39,7 @@
         </div>
         <!-- Page Contents -->
         <section id="intro" class="ui inverted vertical masthead center aligned segment intro-header">
-            <div class="ui text container intro-text pt pb">
+            <div class="ui text intro-text pt pb">
                 <h1 id="typed" class="ui inverted header">
                     PHP Training
                 </h1>
@@ -62,7 +62,7 @@ class ListController extends AbstractActionController
     }
 }
                 </code></pre>
-                <p class="blockquote">
+                <p class="ui blockquote intro-quote">
                     Finding the right people to improve your team's skills can be difficult, but here at PHP Training, we're renowned for making even the most complicated topics understandable.
                 </p>
                 <a data-scroll href="#cta" class="ui large button">Register now</a>
