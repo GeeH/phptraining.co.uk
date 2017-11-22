@@ -74,6 +74,16 @@ class ListController extends AbstractActionController
                     <div class="ten wide column centered">
                         <h2 class="ui header embelish">The Right People</h2>
                         <p>Our trainers are so helpful they're asked to speak at PHP conferences around the world!</p>
+                        <h3 class="ui header">
+                            <img src="https://www.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8as?s=500" class="ui huge image">
+                            Rob Allen
+                        </h3>
+                        <p>Rob Allen (gravatar rob@akrabat.com) Rob Allen is a developer and trainer with proven industry experience creating PHP applications. He contributes to various Open Source projects, including leadership of the popular Slim Framework. He wrote the definitive book on Zend Framework and is a member of the Zend Framework Review team. An experienced speaker, Rob has the ability to communicate complex ideas simply, so that you can be sure you'll learn what you need to know from his courses.</p>
+                        <h3 class="ui header">
+                            <img src="https://www.gravatar.com/avatar/699b873ae9616b36770e53c246e77377?s=500" class="ui huge image">
+                            Gary Hockin
+                        </h3>
+                        <p>Gary (gravatar gary@hock.in) has been working in development for nearly 20 years and has been delivering training for the last 8. He's a member of the Zend Framework Review team, and regularly contributes to multiple Open Source projects. Gary's an internationally renowed speaker and has delivered keynotes at several PHP conferences. Gary loves to teach, and prides himself on teaching through interactive live coding.</p>
                         <div class="ui divider"></div>
                         <h2 class="ui header embelish">Modern Tech</h2>
                         <p>We can provide modern PHP language training, plus all the relevant technologies like databases, Composer and Git. We have intermediate to advanced subjects like unit testing, continuous integration, and virtualising your development environment with Docker or Vagrant.</p>
