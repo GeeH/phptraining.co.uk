@@ -43,25 +43,23 @@
         <h1 id="typed" class="ui inverted header">
             PHP Training
         </h1>
-        <pre id="intro-code"><code class="language-php">
-namespace Blog\Controller;
+        <pre id="intro-code"><code class="language-php"><&quest;php
 
-use Blog\Model\PostRepositoryInterface;
-use Zend\Mvc\Controller\AbstractActionController;
+use Zend\Expressive\Helper\ServerUrlMiddleware;
+use Zend\Expressive\Helper\UrlHelperMiddleware;
+use Zend\Expressive\Middleware\ImplicitHeadMiddleware;
+use Zend\Expressive\Middleware\ImplicitOptionsMiddleware;
+use Zend\Expressive\Middleware\NotFoundHandler;
+use Zend\Stratigility\Middleware\ErrorHandler;
 
-class ListController extends AbstractActionController
-{
-    /**
-     * @var PostRepositoryInterface
-     */
-    private $postRepository;
+/**
+ * Setup middleware pipeline:
+ */
+// The error handler should be the first (most outer) middleware to catch
+// all Exceptions.
+$app->pipe(ErrorHandler::class);
+$app->pipe(ServerUrlMiddleware::class);</code></pre>
 
-    public function __construct(PostRepositoryInterface $postRepository)
-    {
-        $this->postRepository = $postRepository;
-    }
-}
-                </code></pre>
         <p class="ui blockquote intro-quote">
             Finding the right people to improve your team's skills can be difficult, but here at PHP Training, we're
             renowned for making even the most complicated topics understandable.
