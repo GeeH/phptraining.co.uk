@@ -97,3 +97,16 @@
     max-width: 687px;
     margin: 0 auto 15px auto;
 }
+
+#feature-course {
+    background-color: #f9f9f9;
+}
+
+.tickets-button {
+    background-color: #006cc2 !important;
+}
+
+.tickets-button:hover {
+    background-color: #006cc2 !important;
+    color: white !important;
+}
