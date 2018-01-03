@@ -40,23 +40,64 @@
 <!-- Page Contents -->
 <section id="intro" class="ui inverted vertical masthead center aligned segment intro-header">
     <div class="ui text intro-text pt pb">
-        <img src="assets/images/php-training-logo.png" class="ui centered image huge" alt="PHP Training Logo" />
+        <img src="assets/images/php-training-logo.png" class="ui centered image huge" alt="PHP Training Logo"/>
+
+        <h1 class="ui">Next Course: Automated Testing for PHP</h1>
+        <h3 class="ui">Bristol, UK</h3>
+        <h3 class="ui">March 13th & 14th 2017</h3>
+        <p class="ui intro-quote justified" style="text-align: justify !important;">
+            Automatically testing your applications is incredibly important when you're developing professional,
+            resilient apps -- and working with PHP is no exception. Knowing how and where to start when you've decided
+            to start automated testing can be intimidating, so this two-day course in Bristol will cover (from scratch)
+            everything you'll need to know to start testing your applications with industry standard tools such as
+            PHPUnit. We'll include how to start testing (and why you should) and look at Unit, Integration and
+            Acceptance testing, along with how you can automate the running of your test suite using continuous
+            integration software for an even higher level of confidence.</p>
+
+        <p class="ui intro-quote justified" style="text-align: justify !important;">The course is suitable for complete beginners as well as those with a little experience in
+            writing automated
+            tests and is delivered by Rob Allen and Gary Hockin; two industry recognised experts who have given courses
+            around the world. You'll be part of a tiny group to make sure that the quality of the lessons is the highest
+            possible, and lunch on both days will be provided.</p>
+
+        <!-- Noscript content for added SEO -->
+        <noscript><a href="https://www.eventbrite.com/e/automated-testing-for-php-tickets-41380874309" rel="noopener noreferrer" target="_blank"></noscript>
+        <!-- You can customize this button any way you like -->
+        <button id="eventbrite-widget-modal-trigger-41380874309" type="button" class="ui large button" style="margin-bottom: 20px;">Buy Tickets</button>
+        <noscript></a>Buy Tickets on Eventbrite</noscript>
+
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+
+            };
+
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '41380874309',
+                modal: true,
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-41380874309',
+                onOrderComplete: exampleCallback
+            });
+        </script>
+
         <pre id="intro-code"><code class="language-php"><&quest;php declare(strict_types=1);
 
-use Zend\Expressive\Helper\ServerUrlMiddleware;
-use Zend\Expressive\Helper\UrlHelperMiddleware;
-use Zend\Expressive\Middleware\ImplicitHeadMiddleware;
-use Zend\Expressive\Middleware\ImplicitOptionsMiddleware;
-use Zend\Expressive\Middleware\NotFoundHandler;
-use Zend\Stratigility\Middleware\ErrorHandler;
+        use Zend\Expressive\Helper\ServerUrlMiddleware;
+        use Zend\Expressive\Helper\UrlHelperMiddleware;
+        use Zend\Expressive\Middleware\ImplicitHeadMiddleware;
+        use Zend\Expressive\Middleware\ImplicitOptionsMiddleware;
+        use Zend\Expressive\Middleware\NotFoundHandler;
+        use Zend\Stratigility\Middleware\ErrorHandler;
 
-/**
- * Setup middleware pipeline:
- */
-// The error handler should be the first (most outer) middleware to catch
-// all Exceptions.
-$app->pipe(ErrorHandler::class);
-$app->pipe(ServerUrlMiddleware::class);</code></pre>
+        /**
+        * Setup middleware pipeline:
+        */
+        // The error handler should be the first (most outer) middleware to catch
+        // all Exceptions.
+        $app->pipe(ErrorHandler::class);
+        $app->pipe(ServerUrlMiddleware::class);</code></pre>
 
         <h2 class="ui intro-quote blockquote">
             Finding the right people to improve your team's skills can be difficult, but here at PHP Training, we're
@@ -134,11 +175,14 @@ $app->pipe(ServerUrlMiddleware::class);</code></pre>
 
                 <div class="column left aligned pb">
                     <h2 class="ui header embelish left aligned">Unleashing Zend Expressive</h2>
-                <p>This two-day course uses interactive coding to introduce and then looks in detail at Zend Expressive 2.
-                    We start by looking at the foundations of the framework and then turn our attention to how
-                    middleware works and provides the power and flexibility in Expressive. You will learn how to build a
-                    well-rounded website using the rich eco-system of components from Zend Framework and elsewhere with
-                    Composer integration.</p>
+                    <p>This two-day course uses interactive coding to introduce and then looks in detail at Zend
+                        Expressive 2.
+                        We start by looking at the foundations of the framework and then turn our attention to how
+                        middleware works and provides the power and flexibility in Expressive. You will learn how to
+                        build a
+                        well-rounded website using the rich eco-system of components from Zend Framework and elsewhere
+                        with
+                        Composer integration.</p>
                 </div>
 
                 <div class="column left aligned pb">
